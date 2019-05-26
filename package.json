@@ -5,5 +5,10 @@
   "scripts": {},
   "author": "Hunter Luker",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cheerio": "^1.0.0-rc.3",
+    "ora": "^3.4.0",
+    "request": "^2.88.0"
+  }
 }
