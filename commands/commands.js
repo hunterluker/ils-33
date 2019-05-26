@@ -41,4 +41,12 @@ program
     });
   });
 
+program
+  .command('test')
+  .alias('t')
+  .description('Test run an example of ILS-33')
+  .action(() => {
+    linkScraper('http://books.toscrape.com/');
+  });
+
 program.parse(process.argv);
