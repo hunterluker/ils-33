@@ -37,7 +37,11 @@ module.exports = domain => {
       $('a').each((i, a) => {
         const link = $(a).attr('href');
 
-        console.log(chalk.cyan(`${domain}${link}`));
+        if (link.includes('http')) {
+          console.log(chalk.cyan(`${link}`));
+        } else {
+          console.log(chalk.cyan(`${domain}${link}`));
+        }
       });
     }
   });
