@@ -29,7 +29,7 @@ const questions = [
   }
 ];
 
-program.version('1.0.0', '-v, --version').description('Internal Link Scraper');
+program.version('3.3.3', '-v, --version').description('Internal Link Scraper');
 
 program
   .command('run')

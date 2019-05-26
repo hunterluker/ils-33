@@ -1,6 +1,6 @@
 {
   "name": "ils-33",
-  "version": "2.3.3",
+  "version": "3.3.3",
   "description": "A command line interface tool that scrapes all internal links of a website.",
   "bin": {
     "ils-33": "bin/scrape"
